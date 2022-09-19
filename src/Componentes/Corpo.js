@@ -1,11 +1,15 @@
-export default function Corpo(){
-    const nome = prompt("Qual seu nome?");
-    const idade = parseInt(prompt("Idade?"));
+import Posts from './Posts'
+import SideBar from './SideBar'
+import Stories from './Stories'
 
-    return(
-        <div>
-            <p className="negrito">Seja bem vindo, {nome}!</p>
-            <div>Voce tem {idade} anos e é {(idade > 17) ? "Maior de idade" : "Menor de idade"}</div>
+export default function Corpo() {
+    return (
+        <div className="corpo">
+            <div className="esquerda">
+                <Stories />
+                <Posts/>
+            </div>
+            <SideBar/>
         </div>
     )
 }
