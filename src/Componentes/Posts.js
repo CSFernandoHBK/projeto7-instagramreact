@@ -6,13 +6,13 @@ const dadosposts = [
     imgpost:"assets/img/gato-telefone.svg",
     imglike:"assets/img/respondeai.svg",
     usuariolike:"respondeai",
-    numerolikes: 101.523},
+    numerolikes: 101523},
     {nomeusuario:"barked", 
     imgusuario:"assets/img/barked.svg", 
     imgpost:"assets/img/dog.svg",
     imglike:"assets/img/meowed.svg",
     usuariolike:"meowed",
-    numerolikes: 201.523},
+    numerolikes: 201523},
 ]
 
 export default function Posts(){
